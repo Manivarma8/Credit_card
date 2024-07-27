@@ -2,6 +2,7 @@ var input = document.getElementById('texts');
         var place = document.getElementById('val');
         var warn = document.getElementById('warn');
         var value = document.getElementById('val');
+        var contain = document.querySelector('.container')
 
         document.querySelector('.btn').addEventListener('click', function () {
             let check = true;
@@ -56,7 +57,7 @@ var input = document.getElementById('texts');
             warn.style.color = 'red';
             warn.style.margin = 'auto';
             warn.style.position = "absolute";
-            warn.style.bottom = "40%";
+            warn.style.bottom = "38%";
             warn.style.right = "40%";
             warn.style.fontSize = "19px";
             warn.textContent = message;
